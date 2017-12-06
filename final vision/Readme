@@ -1,6 +1,6 @@
 Text ChatRoullette README
 
-Finished by 10.1.2017 by Haoxiang Ma, Yuxiang Bao and Jie Tang.
+Finished by 10.1.2017 by Haoxiang Ma.
 
 How to use: In termianl, enter each folder, and then type make. If you want to have a new client. Copy all the files in Client and do like before.
 After make, to start server, type: ./server; to start client type: ./client.
