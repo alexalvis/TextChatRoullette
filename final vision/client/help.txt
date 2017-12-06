@@ -1,0 +1,23 @@
+connect "name"
+The client express the intent to connect. And the client can specify his/her name.
+
+chat
+Ask the Text ChatRoulette Server (TRS) to assign a partner for him/her.
+
+quit
+Leave the chatting channel this client is in.
+
+transfer "file name"
+Send a file to it's partner.
+
+flag
+Report your partner to the TRS
+
+help
+Ask TRS to list all the commands the client can call.
+
+broadcast "message"
+The client can send the message to all the other client in client_list.
+
+whisp "message"
+The client can send the message to his/her partner.

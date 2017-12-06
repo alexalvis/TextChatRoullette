@@ -1,0 +1,65 @@
+Text ChatRoullette README
+
+Finished by 10.1.2017 by Haoxiang Ma, Yuxiang Bao and Jie Tang.
+
+How to use: In termianl, enter each folder, and then type make. If you want to have a new client. Copy all the files in Client and do like before.
+After make, to start server, type: ./server; to start client type: ./client.
+
+This project is consist of a chat server and a chat client that enable a client to chat with other and support multiple such sessions.
+
+Commands are listed below. Things in "" are the information to call. For example connect abc means you connect to server as the name of abc.
+
+___________________________________________________________________________________________________
+Server(issued by admin):
+
+start:
+Start the server.
+
+end:
+Destroy all the chats, clear all the source. Prevent clients from connecting.
+
+stats
+List all the clients in the clientlist. Including all their attributes.
+
+throwout "clientnum"
+Make the client with "clientnum" leave the chatting he/she is in, destroy the chat.
+
+block "clientnum"
+Prevent the client with "clientnum" from chatting with others, and destroy the chat he/she is in.
+
+unblock "clientnum"
+Allow the client to chat, from the stats of block.
+
+___________________________________________________________________________________________________
+
+
+Client:
+
+connect "name"
+The client tell the server he/she want to connect tothe server, and the client tell the server what is his/her name.
+
+chat
+Ask the server to give him a chat parter.
+
+quit:
+Leave the chat the client is currently in
+
+transfer "filename"
+Send a file to server.
+
+flag
+Tell the server that his/her partner is doing somehing wrong
+
+help:
+Ask the server to give the client that the command can call.
+
+broadcast "msg"
+The client talks to other clients connect to server.
+
+whisp "msg"
+The client talks to his chat partner.
+
+___________________________________________________________________________________________________
+
+
+
